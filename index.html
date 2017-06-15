@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
@@ -7,29 +7,32 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<title>Comenzando con la Fotografía</title>
 </head>
-<body>
-<header id="Encabezado">
-	<h1 id="Titulo">Comenzando con la fotografía</h1>
-	<nav>
+<header>
+	<div class="Encabezado">
+		<div class="Titulo"><h1>Comenzando con la fotografía</h1></div>
+	</div>
+	<nav id="Menu">
 		<ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="#">Paisajes</a></li>
-			<li><a href="#">Retratos</a></li>
-		</ul>
-	</nav>
+          <li><a class="Activo" href="index.html">Inicio</a></li>
+          <li><a href="#">Paisajes</a></li>
+          <li><a href="#">Retratos</a></li>
+        </ul>
+    </nav>
 </header>
-<div class="Contenedor">
-	<div class="Central"><img src="images/Inicio.jpg" title="Fotografía"></div>
-</div>
-<div class="Contenedor2">
-	<div class="Izquierda"><img src="images/Paisajes.jpg" title="Paisajes">
-	<br><a href="#">Paisajes</a></div>
-	<div class="Derecha"><img src="images/Retratos.jpg" title="Retratos">
-	<br><a href="#">Retratos</a></div>
-</div>
-<footer id="Pie">
-	<h1>Pie de página</h1>
-</footer>
+<body>
+<div class="Contenedor" role="main">
+	<div class="Central">
+		<img id="Central" src="images/Central.jpg" title="Comenzando con la fotografía">
+	</div>
+	<div class="Secundarias">
+		<img id="Paisajes" src="images/Paisajes.jpg" title="Paisajes">
+		<figcaption><a href="#">Paisajes</a></figcaption>
+		<img id="Retratos" src="images/Retratos.jpg" title="Retratos">
+		<figcaption><a href="#">Retratos</a></figcaption>
+	</div>
 
 </body>
+<footer>
+	<h1>Pie de página</h1>
+</footer>
 </html>
