@@ -22,23 +22,32 @@ a:link, a:visited {
 	text-decoration: underline;
 	color: white;
 }
-#wrapper{
-	width: 900px;
+.Contenedor{
 	margin: 0 auto;
+  	width: 900px;
+	display: flex;
+	flex-flow: row wrap;
 }
-#Central{
-	background-color: #82c3a6;
+.Contenedor2{
+	margin: 0 auto;
+  	width: 900px;
+	background-color: #d5c75f;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.Central {
+  	background-color: #82c3a6;
 	width: 100%;
 }
-#Izquierda{
-	background-color: #d5c75f;
-	width: 50%;
-	border-width: 1px;
+.Central img{
+	width: 80%;
 }
-#Derecha{
-	background-color: #d5c75f;
-	width: 50%;
-	border-width: 1px;
+.Izquierda img{
+  	width: 50%;
+}
+.Derecha img{
+  	width: 50%;
 }
 #Pie{
 	background-color: #C6d5c5;
