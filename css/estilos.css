@@ -1,6 +1,48 @@
 *{
 	font-family: "Dancing Script", cursive;
-	margin: 0;
-	padding: 0;
-	background: #02010a;
+}
+body{
+	background-color: #02010a;
+}
+#Encabezado{
+	background-color: #5b7989;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+}
+#Titulo{
+	text-shadow: 1px 2px 2px #02010a;
+}
+ul{
+	list-style-type: none;
+}
+a:link, a:visited {
+	padding: 0 1px;
+	text-decoration: underline;
+	color: white;
+}
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+#Central{
+	background-color: #82c3a6;
+	width: 100%;
+}
+#Izquierda{
+	background-color: #d5c75f;
+	width: 50%;
+	border-width: 1px;
+}
+#Derecha{
+	background-color: #d5c75f;
+	width: 50%;
+	border-width: 1px;
+}
+#Pie{
+	background-color: #C6d5c5;
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
 }
