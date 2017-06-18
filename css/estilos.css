@@ -105,7 +105,7 @@ figcaption a{
 figcaption a:hover{
 	color: #82c3a6;
 }
-.Paisajes{
+.Container{
 	margin: auto;
 	width: 900px;
 	background-color: #d5c75f;
@@ -169,6 +169,9 @@ h2{
 	.Contenedor{
 		width: 100%;
 	}
+	.Container{
+		width: 100%;
+	}
 	footer{
 		width: 100%;
 	}
@@ -178,8 +181,14 @@ h2{
 		width: 100%;
 		height: 150px;
 	}
+	h1{
+		font-size: 1.8em;
+	}
 	#Menu{
 		padding-right: 75px;
+	}
+	#Menu ul li a{
+	font-size: 1.1em;
 	}
 	.Contenedor{
 		width: 100%;
@@ -189,6 +198,13 @@ h2{
 	}
 	.Secundarias{
 		flex-flow: wrap;
+	}
+	.Container{
+		width: 100%;
+	}
+	.Fotos{
+		width: 100%;
+		flex-flow: column;
 	}
 	footer{
 		width: 100%;
