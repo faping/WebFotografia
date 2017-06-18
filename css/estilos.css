@@ -12,6 +12,8 @@ header{
 	height: 100px;
 	margin: auto;
 	border-radius: 10px 10px 0 0;
+	animation-name: header-animacion;
+	animation-duration: 2s;
 }
 .Encabezado{
 	display: inline-block;
@@ -161,6 +163,18 @@ footer div{
 h2{
 	font-size: 1.2em;
 }
+@keyframes
+header-animacion {
+	0% {
+		margin-top: 150%;
+	}
+	60% {
+		margin-top: -5%;
+	}
+	100% {
+		margin-top: 0%;
+	}
+}
 @media (min-width: 421px) and (max-width: 770px){
 	header{
 		width: 100%;
@@ -181,14 +195,20 @@ h2{
 		width: 100%;
 		height: 150px;
 	}
+	.Encabezado{
+		width: 100%;
+	}
+	.Titulo{
+		width: 100%;
+		padding: 0;
+	}
 	h1{
 		font-size: 1.8em;
+		text-align: center;
 	}
 	#Menu{
-		padding-right: 75px;
-	}
-	#Menu ul li a{
-	font-size: 1.1em;
+		width: 100%;
+		text-align: center;
 	}
 	.Contenedor{
 		width: 100%;
